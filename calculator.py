@@ -32,6 +32,15 @@ elif  option == 3:
     prod = num1 *  num2
     print("Thr product  of two number is: ",prod);
 
+elif option == 4:
+   print("Division of Two Numbers!\n ");
+   num1 = int(input("Enter First Number: "));
+   num2 = int(input("Enter Second Number: "));
+   div = num1 / num2;
+   print("The Division of Two number is: ",div);
+   
+   
+
 else:
      print("Invalid Input");
 
